@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio ADS</title>
+
+
+    <!--Css-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--slider padrao-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!--CSS Components-->
+    <link rel="stylesheet" href="./css/components/colors.css">
+
+    <!--Fonte SORA-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="div-login" id="header-div-login">
+        <a href="login.html" class="entrar">Login</a>
+        <a href="" class="inscrever-se">Cadastro</a>
+    </div>
+    <!--Header-->
+    <header>
+        <div class="content-header">
+            <div class="logo-header">
+                <a href="index.html"><img src="img/image 2.png" alt="logo do Biopark"></a>
+            </div>
+            <div class="menu-hamburguer"></div>
+        </div>
+
+        <nav>
+            <ul class="menu-header">
+                <li><a href="index.html#link-noticia">Notícias</a></li>
+                <li><a href="index.html#link-sobre-nos">Sobre Nós</a></li>
+                <li><a href="index.html#link-grade">Disciplinas</a></li>
+                <li><a href="index.html#link-docentes">Docentes</a></li>
+                <li><a href="index.html#link-diferenciais">Diferenciais</a></li>
+                <li class="has-submenu">
+                    <a class="title-submenu" href="#">Extensões / CPA</a>
+                    <ul class="submenu">
+                        <li><a href="cpa-liga-monitoria.html#CPA-div">CPA</a></li>
+                        <li><a href="cpa-liga-monitoria.html#link-monitoria">Monitorias</a></li>
+                        <li><a href="cpa-liga-monitoria.html#link-liga">Ligas Acadêmicas</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a class="title-submenu" href="#">Eventos / Estrutura</a>
+                    <ul class="submenu">
+                        <li><a href="estrutura-eventos.html#link-eventos">Eventos</a></li>
+                        <li><a href="estrutura-eventos.html#link-estrutura">Estrutura</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a class="title-submenu" href="#">Projetos</a>
+                    <ul class="submenu">
+                        <li><a href="projetos2024.html">2024</a></li>
+                        <li><a href="projetos2023.html">2023</a></li>
+                        <li><a href="projetos2022.html">2022</a></li>
+                    </ul>
+                </li>
+                <li><a href="documentacoes.html">Documentações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Painel CPA-->
+    <div class="container" id="CPA-div">
+        <div class="title-pattern">
+            <h1>Comissão Própria de Avaliação <span>(CPA)</span></h1>
+        </div>
+        <div class="titles">
+            <button id="btn-cpa" onclick="changeContent('cpa')">O que é CPA</button>
+            <button id="btn-objetivos" onclick="changeContent('objetivos')">Objetivos da CPA</button>
+            <button id="btn-autoavaliacao" onclick="changeContent('autoavaliacao')">Autoavaliação</button>
+            <button id="btn-documentos" onclick="changeContent('documentos')">Documentos da CPA</button>
+            <button id="btn-SINAES" onclick="changeContent('SINAES')">SINAES</button>
+
+        </div>
+        <div class="content">
+            <p id="contentText"></p>
+        </div>
+    </div>
+
+    <!--Ligas Acadêmicas-->
+    <section class="ligas-academicas" id="link-liga">
+        <div class="title-pattern ligas-title">
+            <h1>Ligas <span>Acadêmicas</span></h1>
+        </div>
+
+        <div class="ligas-text">
+            <p>Muitas vivências acadêmicas são adquiridas fora da sala de aula, promovendo experiência interdisciplinar que constitui elementos fundamentais para a formação profissional.</p>
+            <p>As Ligas Acadêmicas criadas no âmbito da Faculdade Biopark são grupos de estudos que visam complementar a formação acadêmica, em uma área específica de um componente curricular, por meio de atividades que atendam os princípios do ensino, pesquisa e extensão.</p>
+            <p>As Ligas Acadêmicas são compostas por estudantes de graduação, supervisionadas por um professor orientador, visando desenvolver o protagonismo estudantil em uma área específica do conhecimento.</p>
+        </div>
+
+        <div class="carrossel-ligas">
+            <div class="carrossel-liga-repeated">
+                <div class="carrossel-title">
+                    <h1>Liga de T.I</h1>
+                </div>
+
+                <!--prev Arrow-->
+                <div class="prev-arrow-liga-2 arrow-pattern"><img src="img/prev-arrow-2.png" alt="Voltar Carrossel"></div>
+
+                <div class="carrossel-items-2">
+                    <img src="img/liga-ti-1.png" alt="imagem da liga de ti 1">
+                    <img src="img/liga-ti-2.png" alt="">
+                    <img src="img/liga-ti-1.png" alt="imagem da liga de ti 1">
+
+                </div>
+                <!--next Arrow-->
+                <div class="next-arrow-liga-2 arrow-pattern"><img src="img/next-arrow-2.png" alt="Avançar Carrossel"></div>
+            </div>
+
+            <div class="carrossel-liga-repeated">
+                <div class="carrossel-title">
+                    <h1>Liga de Química</h1>
+                </div>
+
+                <!--prev Arrow-->
+                <div class="prev-arrow-liga arrow-pattern"><img src="img/prev-arrow-2.png" alt="Voltar Carrossel"></div>
+
+                <div class="carrossel-items">
+                    <img src="img/liga-qui-1.png" alt="imagem da liga de ti 1">
+                    <img src="img/liga-qui-2.png" alt="">
+                    <img src="img/liga-qui-2.png" alt="">
+
+                </div>
+                <!--next Arrow-->
+                <div class="next-arrow-liga arrow-pattern"><img src="img/next-arrow-2.png" alt="Avançar Carrossel"></div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="ligas-academicas" id="link-monitoria">
+        <div class="title-pattern ligas-title">
+            <h1><span>Monitoria</span></h1>
+        </div>
+
+        <div class="ligas-text">
+            <p>O programa de monitoria acadêmica da Faculdade Biopark consiste na realização de atividades didáticas pelo aluno, sob a supervisão do professor, permitindo uma vivência para a sua formação acadêmica.</p>
+            <p>Esta atividade visa oportunizar ao discente monitor a experiência com o processo de ensino e aprendizagem, auxiliar os discentes na apreensão e produção do conhecimento, servir como ponto de articulação entre docentes e discentes, além de auxiliar na execução de atividades para melhoria do aprendizado.</p>
+            <p>Visa, ainda, proporcionar aos alunos oportunidade de aperfeiçoamento didático ou profissional que os oriente para o ingresso na carreira docente ou de pesquisador.</p>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+    <footer class="main-footer">
+        <div class="button-subir">
+            <a href="#header-div-login"><img src="img/seta-subir.png" alt="botao para voltar a pagina inicial"></a>
+        </div>
+        <div class="logo-header">
+            <a href="index.html"><img src="img/logo-azul.png" alt="logo do Biopark"></a>
+        </div>
+
+        <nav>
+            <ul class="menu-header menu-footer">
+                <li><a href="index.html#link-noticia">Notícias</a></li>
+                <li><a href="index.html#link-sobre-nos">Sobre Nós</a></li>
+                <li><a href="index.html#link-grade">Disciplinas</a></li>
+                <li><a href="index.html#link-docentes">Docentes</a></li>
+                <li><a href="index.html#link-diferenciais">Diferenciais</a></li>
+                <li class="has-submenu">
+                    <a class="title-submenu" href="">Extensões / CPA</a>
+                    <ul class="submenu">
+                        <li><a href="cpa-liga-monitoria.html#CPA-div">CPA</a></li>
+                        <li><a href="cpa-liga-monitoria.html#link-monitoria">Monitorias</a></li>
+                        <li><a href="cpa-liga-monitoria.html#link-liga">Ligas Acadêmicas</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a class="title-submenu" href="">Eventos / Estrutura</a>
+                    <ul class="submenu">
+                        <li><a href="estrutura-eventos.html#link-eventos">Eventos</a></li>
+                        <li><a href="estrutura-eventos.html#link-estrutura">Estrutura</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a class="title-submenu" href="">Projetos</a>
+                    <ul class="submenu">
+                        <li><a href="projetos2024.html">2024</a></li>
+                        <li><a href="projetos2023.html">2023</a></li>
+                        <li><a href="projetos2022.html">2022</a></li>
+                    </ul>
+                </li>
+                <li><a href="documentacoes.html">Documentações</a></li>
+            </ul>
+        </nav>
+
+        <div class="direitos-footer">
+            <p>BIOPARK © 2024 - Todos os Direitos Reservados</p>
+        </div>
+    </footer>    <!--Bibliotecas-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!--Arquivo JS-->
+    <script src="js/menu-hamburguer.js"></script>
+    <script src="js/carrousel-ligas.js"></script>
+    <script src="js/painelCPA.js"></script>
+</body>
+</html>
