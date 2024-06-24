@@ -17,6 +17,7 @@
 @import url(components/projetos.css);
 @import url(components/login.css);
 @import url(components/pag-login.css);
+@import url(components/animacao.css);
 
 /*Responsive*/
 @import url(responsive/tablet.css);

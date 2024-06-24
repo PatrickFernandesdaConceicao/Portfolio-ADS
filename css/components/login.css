@@ -21,12 +21,17 @@
 
 #login {
   background: var(--grey);
+  display: grid;
+  place-items: center; 
+  height: 100%;
 }
 
 .login {
   display: grid;
   grid-template-columns: 5fr 7fr;
   width: 100%;
+  height: 100%;
+  margin-top: 300px;
 }
 
 .img-section,
@@ -61,6 +66,10 @@
   margin-top: 10px;
 }
 
+.login-field::placeholder{
+  color: var(--white);
+}
+
 .botao {
   padding: 4px 32px;
   background: var(--pink);
@@ -72,6 +81,10 @@
   border: none;
   cursor: pointer;
   margin-top: 10px;
+}
+
+.login-formulario > div > .botao:hover{
+  background: var(--pink) !important;
 }
 
 input:focus {
@@ -90,6 +103,7 @@ input:focus {
 @media (max-width: 800px) {
   .login {
     grid-template-columns: 1fr;
+    margin-top: 200px;
   }
   .img-section,
   .login-formulario {
