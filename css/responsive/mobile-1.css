@@ -1,0 +1,55 @@
+@media (max-width: 710px){
+    /*Sobre Nós*/
+
+    .section-sobre-nos{
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .content-sobre-nos {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .content-sobre-nos h1 {
+        font-size: 26px;
+    }
+    .content-sobre-nos h2 {
+        font-size: 24px;
+    }
+    .content
+    .aside-sobre-nos {
+        width: 100%;
+    }
+
+    /*Grade Curricular*/
+
+    .content-grade {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*Docentes*/
+
+    .content-docentes {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 30px;
+    }
+    
+    /*Diferenciais*/
+    .prev-arrow-diferenciais img{
+        width: 30px;
+        padding-right: 5px;
+    }
+    .next-arrow-diferenciais img{
+        width: 30px;
+        padding-left: 5px;
+    }   
+    .section-diferenciais{
+        padding-top: 32px;
+    }
+    .img-desktop{
+        display: none!important;
+    }
+    .img-mobile{
+        display: initial!important;
+    }
+}

@@ -1,0 +1,34 @@
+.section-grade-curricular {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 70px;
+}
+.content-grade {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+.item-grade {
+    max-width: 420px;
+    min-width: 300px;
+    color: var(--white);
+    height: 272px;
+    border-radius: 15px;
+    background-color: var(--blue);
+    padding: 24px 16px;
+    margin: 20px 0;
+}
+.item-grade h1 {
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.item-grade ul {
+    list-style: disc;
+    font-size: 14px;
+    padding-left: 25px;
+}
+.item-grade ul li{
+    margin-bottom: 5px;
+}

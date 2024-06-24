@@ -1,0 +1,78 @@
+.prev-arrow-diferenciais{
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+}
+.next-arrow-diferenciais{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+
+.ligas-academicas{
+    width: 80%;
+    margin: 0 auto;
+}
+.ligas-title{
+   width: 100%;
+   text-align: left;
+}
+.ligas-text p{
+    margin-bottom: 32px;
+}
+.carrossel-title{
+    color: var(--red);
+    margin: 32px 0;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+.carrossel-ligas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.carrossel-liga-repeated{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.carrossel-items {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.carrossel-items img {
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+}
+.carrossel-items-2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.carrossel-items-2 img {
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+}
+.arrow-pattern{
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    .ligas-academicas{
+        width: 100%;
+        padding: 10px;
+    }
+    .arrow-pattern img{
+        width: 30px;
+    }
+}

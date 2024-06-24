@@ -1,0 +1,27 @@
+.section-noticias{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.carrousel-news{
+    width: 100%;
+}
+.carrousel-news img{
+    width: 100%;
+    z-index: -1;
+}
+.prev-arrow{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+}
+.next-arrow{
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+}
+.img-mobile{
+    display: none!important;   
+}

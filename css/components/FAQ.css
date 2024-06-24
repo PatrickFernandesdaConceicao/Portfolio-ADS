@@ -1,0 +1,33 @@
+.faq-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.faq {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 0px 0px 15px 50px;
+    background-image: url(../../img/Plus.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: top start;
+    line-height: 25px;
+}
+
+.faq-answer {
+    max-height: 0; /* Inicialmente oculto */
+    display: block; /* Para permitir a animação */
+    font-size: 14px;
+    padding: 0 58px; /* Inicialmente sem padding vertical */
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+.faq-answer.show {
+    max-height: 1000px; /* Altura máxima suficiente para o conteúdo */
+    padding: 10px 58px; /* Padding quando visível */
+}

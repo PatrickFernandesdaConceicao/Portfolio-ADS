@@ -1,0 +1,46 @@
+
+.button-subir{
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    margin-top: -64px;
+}
+.main-footer{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    margin-top: 64px;/*TIrar*/
+    padding: 0px 2%;
+    padding-top: 32px;
+    background-color: var(--blue);
+    flex-wrap: wrap;
+}
+footer .logo-header{
+    width: 150px;
+}
+.menu-footer{
+    width: 100%;
+    text-align: center;
+}
+.menu-footer li a{
+    color: white;
+    border-bottom: none;
+}
+footer .title-submenu{
+    background-image: url(../../img/down-arrow-white.png);
+}
+.direitos-footer{
+    width: 100%;
+    padding: 64px 2%;
+    color: white;
+    background-color: var(--blue);
+}
+.menu-footer p{
+    font-size: 12px;
+    color: white;
+    
+}

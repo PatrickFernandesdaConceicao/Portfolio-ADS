@@ -1,0 +1,73 @@
+.section-sobre-nos{
+    margin: 96px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-sobre-nos{
+    width: 57.69%;
+}
+.content-sobre-nos h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.content-sobre-nos h2{
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    padding-left: 5px;
+    margin: 16px 0px 32px 0px;
+}
+.content-sobre-nos p{
+    font-size: 16px;
+}
+.sobre-pattern{
+    margin-top: 16px;
+}
+.sobre-pattern p{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+/* Aside */
+
+.aside-sobre-nos{
+    width: 32.31%;
+    border-radius: 15px;
+    background-color: var(--blue);
+    padding: 32px 10px 140px 20px;
+    color: white;
+
+}   
+.block-pattern-aside{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-size: 35px 42px;
+    background-position: left center;
+}
+.block-pattern-aside h1{
+    font-size: 12px;
+}
+.block-pattern-aside h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-wrap: wrap;
+}
+.sobre-cidade{
+    background-image: url(../../img/icon-local.png);
+}
+.sobre-modalidade{
+    background-image: url(../../img/icon-book.png);
+    background-size: 35px 44px;
+}
+.sobre-certificacao{
+    background-image: url(../../img/icon-graduation.png);
+    background-size: 42px 35px;
+}
+.sobre-duracao{
+    background-image: url(../../img/icon-hourglass.png);
+    background-size: 35px 42px;
+}

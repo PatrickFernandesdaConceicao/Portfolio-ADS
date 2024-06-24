@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 2%;
+    height: 110px;
+}
+.logo-header{
+    max-width: 201px;
+    min-width: 120px;
+    margin-right: 20px;
+}
+.logo-header img{
+    width: 100%;
+}
+.menu-header{
+    display: flex;
+    text-wrap: nowrap;
+}
+.menu-header a{
+    font-size:12px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px 15px 10px;
+    border-bottom: white 5px solid;
+}
+.title-submenu{
+    background-image: url(../../img/Down\ Arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    background-position: center right;
+    padding: 10px 15px 15px 10px
+}
+.menu-header li a:hover{
+    
+    border-bottom: var(--red) 5px solid;
+    color: var(--red);
+    transition: 0.2s;
+}

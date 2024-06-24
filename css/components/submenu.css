@@ -1,0 +1,31 @@
+.submenu{
+    display: none;
+    position: absolute;
+    
+    padding: 10px 0;
+    z-index: 10;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-wrap: wrap;
+}
+.submenu li{
+    padding: 15px 0;
+}
+.submenu li:hover{
+    border: 5px solide var(--red);
+}
+.submenu li a {
+    padding: 10px;
+    padding-right: 50px;
+}
+.has-submenu:hover ul{
+    display: block;
+}
+/*sub menu footer*/
+footer .submenu{
+    text-align: left;
+}
+footer .submenu a{
+    color: black;
+}

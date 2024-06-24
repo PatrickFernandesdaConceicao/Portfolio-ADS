@@ -1,0 +1,46 @@
+@import url(components/colors.css);
+@import url(components/header.css);
+@import url(components/noticias.css);
+@import url(components/sobre-nos.css);
+@import url(components/grade-curricular.css);
+@import url(components/title-pattern.css);
+@import url(components/docentes.css);
+@import url(components/diferenciais.css);
+@import url(components/footer.css);
+@import url(components/FAQ.css);
+@import url(components/submenu.css);
+@import url(components/menu-hamburguer.css);
+@import url(components/ligas-acad.css);
+@import url(components/estrutura-eventos.css);
+@import url(components/painelCPA.css);
+@import url(components/documentacoes.css);
+@import url(components/projetos.css);
+@import url(components/login.css);
+@import url(components/pag-login.css);
+
+/*Responsive*/
+@import url(responsive/tablet.css);
+@import url(responsive/tablet-mini.css);
+@import url(responsive/mobile-1.css);
+
+
+body{
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+/*button*/
+.button-pattern{
+    font-size: 16px;
+    padding: 12px 24px;
+    color: var(--white);
+    background-color: var(--red);
+    border: none;
+    border-radius: 15px;
+}
+.button-pattern:hover{
+    cursor: pointer;
+    background-color: white;
+    outline: var(--red) solid 3px;
+    color: var(--red);
+    transition: 0.3s;
+}

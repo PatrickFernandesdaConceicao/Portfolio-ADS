@@ -1,0 +1,55 @@
+@media (max-width: 1024px){
+    /*Menu Hamburguer*/
+    .menu-hamburguer{
+        display: flex;
+    }
+    .content-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 110px;
+    }
+    header.active .menu-hamburguer::before{
+        transform: rotate(45deg);
+        box-shadow: 0 0 #fff;
+    }
+    header.active .menu-hamburguer::after{
+        transform: rotate(315deg);
+    }
+    
+    /*Header*/
+    header{
+        flex-direction: column;
+        padding: 10px;   
+        height: auto;
+    }
+    header .menu-header{
+        flex-direction: column;       
+    }
+    header .menu-header li{
+        padding: 15px;
+    }
+    header nav{
+        display: none;
+        margin: 40px auto;
+        width: 100%;
+    }
+    header.active nav{
+        display: initial;
+    }
+    .submenu{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    
+
+    /*footer*/
+    footer .menu-header {
+        flex-wrap: wrap;
+    }
+    .menu-footer li{
+        padding-bottom: 20px;
+    }
+}

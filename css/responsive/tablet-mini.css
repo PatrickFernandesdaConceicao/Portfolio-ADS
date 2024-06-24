@@ -1,0 +1,27 @@
+@media (max-width: 1023px){
+    /*Sobre Nós*/
+
+    .section-sobre-nos{
+        flex-direction: column;
+    }
+    .content-sobre-nos {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .aside-sobre-nos {
+        width: 100%;
+    }
+
+    /*Grade Curricular*/
+
+    .content-grade {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*Docentes*/
+
+    .content-docentes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

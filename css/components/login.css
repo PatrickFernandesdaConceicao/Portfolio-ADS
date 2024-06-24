@@ -1,0 +1,105 @@
+.div-login{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: var(--blue);
+}
+.div-login a{
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 7px;
+}
+.div-login a:hover{
+  transition: 0.4s;
+  background-color: var(--red);
+  color: white;
+}
+
+#login {
+  background: var(--grey);
+}
+
+.login {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  width: 100%;
+}
+
+.img-section,
+.login-formulario {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.img-section {
+  border-radius: 5px 0 0 5px;
+  background: var(--white);
+}
+
+.login-formulario {
+  border-radius: 0 5px 5px 0;
+  background:var(--blue);
+  
+}
+
+.login-img {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100%; 
+}
+
+
+.login-field {
+  color: var(--grey);
+  background-color: var(--blue);
+  border: none;
+  margin-top: 10px;
+}
+
+.botao {
+  padding: 4px 32px;
+  background: var(--pink);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--white);
+  max-width: 100%;
+  min-width: 100%;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: none; 
+}
+
+.horizontal-line {
+  height: 2px; 
+  background-color: var(--grey); 
+  width: 100%; 
+  margin: 5px 0; 
+}
+
+
+@media (max-width: 800px) {
+  .login {
+    grid-template-columns: 1fr;
+  }
+  .img-section,
+  .login-formulario {
+    padding: 20px;
+  }
+  .img-section {
+    border-radius: 5px 5px 0 0;
+  }  
+  .login-formulario {
+    border-radius: 0 0 5px 5px;
+  }
+
+}

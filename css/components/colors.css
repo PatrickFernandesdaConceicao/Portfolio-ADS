@@ -1,0 +1,21 @@
+:root {
+    --red: #ec0044;
+    --blue: #243444;
+    --white: #FFFF;
+    --black: #000;
+    --pink: #E7425E;
+    --grey: #ECECEC;
+}
+
+
+.cor-0 {
+    color: var(--pink);
+  }
+  .cor-1 {
+    color: var(--white);
+  }
+  .cor-2 {
+    color: var(--grey);
+  }
+
+
